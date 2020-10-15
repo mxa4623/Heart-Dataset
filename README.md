@@ -1,10 +1,10 @@
 # ![](https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/articles/health_tools/did_you_know_this_could_lead_to_heart_disease_slideshow/493ss_thinkstock_rf_heart_illustration.jpg) Heart Capstone
 
-Table of Content:
-1) [Executive Summary] (#Executive-Summary)
-2) [Modeling and Evaluation Notebooks] (#Modeling-and-Evaluation-Notebooks)
+Table of Contents:
+1) [Executive Summary](#Executive-Summary)
+2) [Modeling and Evaluation Notebooks](#Modeling-and-Evaluation-Notebooks)
 3) [Notebooks](#Notebooks)
-4) [Approach and Process] (#Approach-and-Process)
+4) [Approach and Process](#Approach-and-Process)
 5) [Conclusion](#Conclusion)
 6) [Resources](#Resources)
 
