@@ -6,10 +6,9 @@ Table of Contents:
 3) [Notebooks](#Notebooks)
 4) [Approach and Process](#Approach-and-Process)
 5) [Conclusion](#Conclusion)
-6) [Resources](#Resources)
 
 ## Executive Summary
-- We were given the task to collect the data and work on it. We focused on the dataset on Heart Diseases which we found on CDC website. Once we get the data we need, we must clean it with EDA and do some Feature Engineering on it to make it presentable. After doing the basic alteration and modifications on the dataset at hand, we must do some Visualization on it to find the correlation and relationship between the data variables. That dataset will then be used for predicting and modeling purposes.
+- I was given the task to collect a dataset and work on it. I focused on the dataset on Heart Diseases which I found on CDC website. Once I get the data I need, I must clean it with EDA and do some Feature Engineering on it to make it presentable. After doing the basic alteration and modifications on the dataset at hand, I must do some Visualization on it to find the correlation and relationship between the data variables. That dataset will then be used for predicting and modeling purposes.
 - The reason behind choosing the data related to Heart Diseases is to find out which Gender, Race and Age group is more at risk of the said diseases. This would help the Insurance Companies make better plans for their members.
 - ![](https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/articles/health_tools/how_heart_disease_affects_your_body_slideshow/493ss_webmd_ed_anatomy_of_heart.jpg)
 
@@ -38,13 +37,8 @@ Since we were given the task to work on a desired dataset, we divided the task a
 | Data Dictionary | Data Dictionary of the Dataset|[Link](./DataDictionary.md)|
 
 ## Approach and Process
-The approach towards this task was kept simple and realistic. Once we were successful in getting the dataset, we focused on how to clean it. We used the columns that would play a role in the outcome and started from there. We did feature engineering on the dataset and dummified the Topic column to get 6 diseases in binary colmns. We also dummified the Breakout Category. We did the Random Forest Classification, Extra Tree Classification and OneVSRest Classification on the dataset we cleaned, and feature engineered. We also ran the confusion matrix on it.
+The approach towards this task was kept simple and realistic. Once I was successful in getting the dataset, I focused on how to clean it. I used the columns that would play a role in the outcome and started from there. I did feature engineering on the dataset and dummified the Topic column to get 6 diseases in binary columns. I also dummified the Breakout Category. I did the Random Forest Classification, Extra Tree Classification and OneVSRest Classification on the dataset we cleaned, and feature engineered. I also ran the confusion matrix on it.
 
 ## Conclusion
-- 
-
-## Resources
-- https://scikit-learn.org/stable/modules/generated/sklearn.metrics.classification_report.html
-- https://chronicdata.cdc.gov/Heart-Disease-Stroke-Prevention/National-Vital-Statistics-System-NVSS-National-Car/kztq-p2jf
-- 
+- I ran models on the diseases separately and checked the predictive scores. The scores for Stroke disease were low because it was approximate 60% of the dataset and thats the reason the results are overfit as well. The term overfit is used when the training score is greater than the testing score. The models on other diseases ran smoothly and the scores were approx 90% for each. I also ran One Vs Rest Classification model to check the scores for all the diseases at once. The score came out low and overfit. The reason was the same, Stroke disease values were approximate 60% of the dataset. We also ran Confusion Matrix and Checked the True Positive, True Negative, False Positive and False Negative values of the models I ran. This gave me a better view of what my models look like. I was better able to check True Negative values which is a good thing.
 
