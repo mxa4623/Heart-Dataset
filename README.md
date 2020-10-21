@@ -13,7 +13,7 @@ Table of Contents:
 - The reason behind choosing the data related to Heart Diseases is to find out which Gender, Race and Age group is more at risk of the said diseases. This would help the Insurance Companies make better plans for their members.
 - ![](https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/articles/health_tools/how_heart_disease_affects_your_body_slideshow/493ss_webmd_ed_anatomy_of_heart.jpg)
 
-# Goals
+## Goals
 - The goal of this project is to run Predictive Classification Models and find out in how much accuracy I can predict Heart Conditions in regards to Categories such as Age, Race & Gender etc. It will help us find out which Category is more at risk of Heart disease.
 
 ## Modeling and Evaluation Notebooks
